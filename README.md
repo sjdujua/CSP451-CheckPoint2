@@ -42,3 +42,12 @@ To intentionally create a merge conflict, edit the same lines in one of:
 npm test
 npm run lint
 ```
+
+## Database Connection Module
+
+This module simulates a database connection layer. It represents where
+database initialization and connection logic would exist in a real-world
+application.
+
+For this project, no real database is used. The goal is to demonstrate
+project structure, separation of concerns, and version control practices.
