@@ -41,4 +41,17 @@ To intentionally create a merge conflict, edit the same lines in one of:
 ```bash
 npm test
 npm run lint
+
 ```
+
+## User Authentication Features
+
+This feature will improve the login experience by focusing on the client-side validation for better user feedback.
+
+## Features
+
+- Username and Password is mandatory requirement
+- Without this, an error message will show when the fields are empty
+- Username and Password is requirement for necessary requirements
+
+The main logicl for this is to prevent unnecessary API calls and provide fast feedback to users that not follow this feature.
