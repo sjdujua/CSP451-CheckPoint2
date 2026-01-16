@@ -43,8 +43,8 @@ npm test
 npm run lint
 ```
 
-## API Endpoints
-
+## API Endpoints (Conflict Version Changes)
+                 
 This feature branch introduces a mock API layer to show how user-related endpoints would be organized in a real application.
 
 The implementation is intentionally simplified and doesnot make real network requests. Its purpose is to demonstrate project structure, data flow, and collaborative
