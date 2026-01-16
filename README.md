@@ -42,3 +42,11 @@ To intentionally create a merge conflict, edit the same lines in one of:
 npm test
 npm run lint
 ```
+
+## API Endpoints
+
+This feature branch introduces a mock API layer to show how user-related endpoints would be organized in a real application.
+
+The implementation is intentionally simplified and doesnot make real network requests. Its purpose is to demonstrate project structure, data flow, and collaborative
+development using Git.
+
