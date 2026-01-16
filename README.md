@@ -41,13 +41,16 @@ To intentionally create a merge conflict, edit the same lines in one of:
 ```bash
 npm test
 npm run lint
+
 ```
+## User Authentication & API Endpoints
 
-## Database Connection Module
+This section combines updates from multiple feature branches.
+The user authentication feature focuses on client-side validation
+to improve user feedback and prevent invalid input.
 
-This module simulates a database connection layer. It represents where
-database initialization and connection logic would exist in a real-world
-application.
+The API endpoints feature introduces a mock API layer that shows
+how user-related endpoints would be structured in a real application.
+The implementation is intentionally simplified to focus on project
+organization and collaborative Git workflows.
 
-For this project, no real database is used. The goal is to demonstrate
-project structure, separation of concerns, and version control practices.
