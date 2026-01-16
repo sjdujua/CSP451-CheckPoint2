@@ -41,16 +41,12 @@ To intentionally create a merge conflict, edit the same lines in one of:
 ```bash
 npm test
 npm run lint
-
 ```
-## User Authentication & API Endpoints
 
-This section combines updates from multiple feature branches.
-The user authentication feature focuses on client-side validation
-to improve user feedback and prevent invalid input.
+## API Endpoints (Conflict Version Changes)
+                 
+This feature branch introduces a mock API layer to show how user-related endpoints would be organized in a real application.
 
-The API endpoints feature introduces a mock API layer that shows
-how user-related endpoints would be structured in a real application.
-The implementation is intentionally simplified to focus on project
-organization and collaborative Git workflows.
+The implementation is intentionally simplified and doesnot make real network requests. Its purpose is to demonstrate project structure, data flow, and collaborative
+development using Git.
 
