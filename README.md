@@ -43,14 +43,15 @@ npm test
 npm run lint
 
 ```
-## User Authentication & API Endpoints
 
-This section combines updates from multiple feature branches.
-The user authentication feature focuses on client-side validation
-to improve user feedback and prevent invalid input.
+## User Authentication Features (conflict Version Changes)
 
-The API endpoints feature introduces a mock API layer that shows
-how user-related endpoints would be structured in a real application.
-The implementation is intentionally simplified to focus on project
-organization and collaborative Git workflows.
+This feature will improve the login experience by focusing on the client-side validation for better user feedback.
 
+## Features
+
+- Username and Password is mandatory requirement
+- Without this, an error message will show when the fields are empty
+- Username and Password is requirement for necessary requirements
+
+The main logicl for this is to prevent unnecessary API calls and provide fast feedback to users that not follow this feature.
